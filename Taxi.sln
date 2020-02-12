@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxi.Common", "Taxi.Common\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxi.Web", "Taxi.Web\Taxi.Web.csproj", "{D94D9E05-90EC-406A-9D71-105F550D8E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxi.Prism", "Taxi.Prism\Taxi.Prism\Taxi.Prism.csproj", "{50A81C3A-076F-46D2-AB3B-F64B9F90B1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxi.Prism", "Taxi.Prism\Taxi.Prism\Taxi.Prism.csproj", "{50A81C3A-076F-46D2-AB3B-F64B9F90B1C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxi.Prism.Android", "Taxi.Prism\Taxi.Prism.Android\Taxi.Prism.Android.csproj", "{0274DF6D-444B-46CF-82D0-F177A0511177}"
 EndProject
