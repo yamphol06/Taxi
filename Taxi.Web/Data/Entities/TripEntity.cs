@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Taxi.Web.Data.Entities
@@ -46,5 +47,7 @@ namespace Taxi.Web.Data.Entities
         public string Remarks { get; set; }
 
         public TaxiEntity Taxi { get; set; }
+
+        public ICollection<TripDetailEntity> TripDetails { get; set; }
     }
 }
