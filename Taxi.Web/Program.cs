@@ -20,7 +20,7 @@ namespace Taxi.Web
             using (IServiceScope scope = scopeFactory.CreateScope())
             {
                 SeedDb seeder = scope.ServiceProvider.GetService<SeedDb>();
-                seeder.SeedAsync().Wait();
+                seeder.SeedAsync().Wait();//
             }
         }
 
