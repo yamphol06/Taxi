@@ -13,7 +13,7 @@ namespace Taxi.Web.Controllers
     public class TaxisController : Controller
     {
         private readonly DataContext _context;
-        private TaxiEntity taxiEntity;
+        //private TaxiEntity taxiEntity;
 
         public TaxisController(DataContext context)
         {
@@ -72,7 +72,7 @@ namespace Taxi.Web.Controllers
                 return NotFound();
             }
 
-            var taxiEntity = await _context.Taxis.FindAsync(id);
+            TaxiEntity taxiEntity = await _context.Taxis.FindAsync(id);
             if (taxiEntity == null)
             {
                 return NotFound();
