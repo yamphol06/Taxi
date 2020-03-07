@@ -93,7 +93,7 @@ namespace Taxi.Web.Data
                             Qualification = 4.5f,
                             Source = "ITM Fraternidad",
                             Target = "ITM Robledo",
-                            Remarks = "Muy buen servicio",
+                            Remarks = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in vulputate felis. Curabitur dictum tellus dolor, eget bibendum risus tincidunt id. Morbi iaculis, orci ut tempor faucibus, ipsum lorem ornare dui, sed bibendum ex nisl pulvinar diam. Quisque et ex ut lectus venenatis ultrices id non urna. In vitae ipsum ut lacus aliquam luctus ac non nulla. Integer et lectus a ex hendrerit pharetra ut id urna. Quisque vel eleifend tortor. Nunc egestas elementum lorem. In sed dui id dolor aliquet congue. Morbi at purus facilisis, vestibulum massa sed, cursus tellus.",
                             User = user1
                         },
                         new TripEntity
@@ -103,7 +103,7 @@ namespace Taxi.Web.Data
                             Qualification = 4.8f,
                             Source = "ITM Robledo",
                             Target = "ITM Fraternidad",
-                            Remarks = "Conductor muy amable",
+                            Remarks = "Curabitur id ante urna. Donec justo eros, eleifend ut fermentum non, scelerisque ac est. Nunc eu maximus ex, id vulputate purus. Curabitur bibendum ipsum at diam placerat, ac viverra lacus euismod. Praesent in tortor magna. Aliquam in pulvinar nisl, at ornare quam. In convallis interdum tempus. Vestibulum hendrerit ullamcorper hendrerit. Nulla sed ipsum nec purus aliquet maximus ut sed dolor. Pellentesque vestibulum, tellus id mollis vestibulum, justo massa cursus augue, venenatis consectetur elit orci nec magna. Sed eget magna lacus. Maecenas faucibus pulvinar vestibulum. Proin eu elit hendrerit, lobortis ex vel, consequat nisl. Sed porta eget libero nec rhoncus.",
                             User = user1
                         }
                     }
