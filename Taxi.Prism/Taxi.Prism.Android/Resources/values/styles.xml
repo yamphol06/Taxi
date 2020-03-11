@@ -29,7 +29,7 @@
   </style>
   
   <style name="Theme.Splash" parent="android:Theme">
-	  <item name="android:windowBackground">@drawable/taxi</item>
+	  <item name="android:windowBackground">@drawable/taxi_splash</item>
 	  <item name="android:windowNoTitle">true</item>
   </style>
 

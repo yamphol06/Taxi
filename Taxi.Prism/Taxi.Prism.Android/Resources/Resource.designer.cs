@@ -14220,10 +14220,13 @@ namespace Taxi.Prism.Droid
 			public const int taxi = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int tooltip_frame_dark = 2131165559;
+			public const int taxi_splash = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int tooltip_frame_light = 2131165560;
+			public const int tooltip_frame_dark = 2131165560;
+			
+			// aapt resource value: 0x7F070179
+			public const int tooltip_frame_light = 2131165561;
 			
 			static Drawable()
 			{
