@@ -30,13 +30,6 @@ namespace Taxi.Web.Data
             await CheckTaxisAsync(driver, user1, user2);
         }
 
-        private async Task CheckRolesAsync()
-        {
-            await _userHelper.CheckRoleAsync(UserType.Admin.ToString());
-            await _userHelper.CheckRoleAsync(UserType.Driver.ToString());
-            await _userHelper.CheckRoleAsync(UserType.User.ToString());
-        }
-
         private async Task<UserEntity> CheckUserAsync(
                   string document,
                   string firstName,
@@ -63,14 +56,19 @@ namespace Taxi.Web.Data
 
                 await _userHelper.AddUserAsync(user, "123456");
                 await _userHelper.AddUserToRoleAsync(user, userType.ToString());
+
+                var token = await _userHelper.GenerateEmailConfirmationTokenAsync(user);
+                await _userHelper.ConfirmEmailAsync(user, token);
+
             }
             return user;
         }
 
-
-        private Task CheckTaxisAsync()
+        private async Task CheckRolesAsync()
         {
-            throw new NotImplementedException();
+            await _userHelper.CheckRoleAsync(UserType.Admin.ToString());
+            await _userHelper.CheckRoleAsync(UserType.Driver.ToString());
+            await _userHelper.CheckRoleAsync(UserType.User.ToString());
         }
 
         private async Task CheckTaxisAsync(
