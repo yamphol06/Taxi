@@ -25,5 +25,10 @@ namespace Taxi.Common.Models
         public string FullName => $"{FirstName} {LastName}";
 
         public string FullNameWithDocument => $"{FirstName} {LastName} - {Document}";
+
+        public string PictureFullPath => string.IsNullOrEmpty(PicturePath)
+            ? "https://TaxiWebyoam.azurewebsites.net//images/noimage.png"
+            : $"https://TaxiWebyoam.azurewebsites.net{PicturePath.Substring(1)}";
+
     }
 }
