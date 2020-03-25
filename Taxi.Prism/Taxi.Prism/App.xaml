@@ -9,7 +9,8 @@
 
             <!-- Parameters -->
             <x:String x:Key="UrlAPI">https://taxiwebyoam.azurewebsites.net/</x:String>
-
+            <x:String x:Key="UrlNoImage">https://TaxiWebyoam.azurewebsites.net/images/noimage.png</x:String>
+            
             <!-- Colors -->
             <Color x:Key="ColorBackgroud">#FFFF05</Color>
             <Color x:Key="ColorPrimary">#3D3D3D</Color>
@@ -32,6 +33,10 @@
             </Style>
 
             <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFontInverse}" />
+            </Style>
+            
+            <Style TargetType="Picker">
                 <Setter Property="BackgroundColor" Value="{StaticResource ColorFontInverse}" />
             </Style>
 
