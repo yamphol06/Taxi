@@ -17,6 +17,8 @@ namespace Taxi.Prism.Helpers
 
         public static string Culture { get; set; }
 
+        public static string Ok => Resource.Ok;
+
         public static string Address => Resource.Address;
 
         public static string AddressError => Resource.AddressError;

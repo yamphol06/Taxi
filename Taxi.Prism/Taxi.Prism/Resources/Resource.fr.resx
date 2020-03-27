@@ -285,4 +285,7 @@
   <data name="RegisterAsPlaceHolder" xml:space="preserve">
     <value>Sélectionner un rôle</value>
   </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
 </root>
