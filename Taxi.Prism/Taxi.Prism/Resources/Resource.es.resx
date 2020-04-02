@@ -202,7 +202,7 @@
     <value>Contraseña</value>
   </data>
   <data name="PasswordPlaceHolder" xml:space="preserve">
-    <value>Entra tu contraseña...</value>
+    <value>Ingresar tu contraseña...</value>
   </data>
   <data name="PasswordError" xml:space="preserve">
     <value>Debe escribir una contraseña.</value>
@@ -322,7 +322,7 @@
     <value>Ingresa la confirmación de tu clave.</value>
   </data>
   <data name="ConfirmNewPasswordError2" xml:space="preserve">
-    <value>La clavey la confirmación no coinciden</value>
+    <value>La clave y la confirmación no coinciden</value>
   </data>
   <data name="ConfirmNewPasswordPlaceHolder" xml:space="preserve">
     <value>Ingrese la confirmación para la nueva clave</value>
@@ -334,7 +334,7 @@
     <value>Debe ingresar su clave actual</value>
   </data>
   <data name="CurrentPasswordPlaceHolder" xml:space="preserve">
-    <value>Escriba la claveactual.</value>
+    <value>Escriba la clave actual.</value>
   </data>
   <data name="NewPassword" xml:space="preserve">
     <value>Nueva clave</value>
@@ -344,5 +344,17 @@
   </data>
   <data name="NewPasswordPlaceHolder" xml:space="preserve">
     <value>Escriba una nueva clave</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Origen</value>
+  </data>
+  <data name="EndTrip" xml:space="preserve">
+    <value>Fin de viaje</value>
+  </data>
+  <data name="GeolocationError" xml:space="preserve">
+    <value>No fue posible obtener su dirección actual, intente más tarde.</value>
+  </data>
+  <data name="ConfirmAddress" xml:space="preserve">
+    <value>Confirma tu dirección</value>
   </data>
 </root>
